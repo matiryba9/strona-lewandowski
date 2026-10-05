@@ -1,0 +1,8 @@
+ADRES STRONY:
+TU WKLEJ ADRES OTRZYMANY PO WRZUCENIU PLIKÓW NA SERWER FTP
+
+Pliki strony:
+index.html
+o-robercie.html
+style.css
+script.js

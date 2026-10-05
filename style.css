@@ -1,0 +1,39 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial;background:#0b0b0d;color:white}
+
+header{height:75px;background:#111;display:flex;justify-content:space-between;align-items:center;padding:0 8%}
+.logo{font-size:25px;font-weight:bold}
+.logo span,h1 span,.small{color:red}
+nav a{color:white;text-decoration:none;margin-left:20px}
+
+.hero,.about{padding:80px 10%;min-height:500px;display:flex;align-items:center}
+.hero{background:radial-gradient(circle,#5b1111,#09090b 70%)}
+.hero-text{max-width:600px}
+.small{font-weight:bold}
+h1{font-size:60px;margin:15px 0}
+.hero p{font-size:18px;margin-bottom:25px}
+
+.button,button{background:#e32626;color:white;padding:13px 22px;border:0;border-radius:4px;text-decoration:none}
+
+.player{position:absolute;right:10%;font-size:400px;color:#e3262630}
+
+.facts,.achievements,.contact{padding:50px 8%;text-align:center}
+h2{margin-bottom:25px}
+.cards{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.cards div{background:#19191c;padding:25px;min-width:180px;border-radius:8px}
+.cards b{display:block;color:red;font-size:25px}
+
+.about{background:#220b0d}
+.about-box{max-width:700px}
+
+form{max-width:600px;margin:auto;display:flex;flex-direction:column;gap:10px}
+input,textarea{padding:13px;background:#171719;color:white;border:1px solid #444}
+textarea{height:130px}
+
+footer{text-align:center;padding:20px;background:#070708;color:#aaa}
+
+@media(max-width:700px){
+h1{font-size:40px}
+nav a{margin-left:8px;font-size:11px}
+.hero,.about{padding:60px 7%}
+}
